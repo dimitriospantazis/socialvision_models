@@ -1,0 +1,9 @@
+data/
+MiTmodels_venv/
+frames/
+mlruns/
+model_checkpoints/
+scratch/
+
+
+
