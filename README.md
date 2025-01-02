@@ -59,6 +59,7 @@ Clone the repository and install the required dependencies:
 git clone https://github.com/your_username/your_project_name.git
 cd your_project_name
 pip install -r requirements.txt
+```
 
 ## Usage
 1. **Prepare the video dataset and annotations**: Follow the instructions in [socialvision_GPT_annotations](https://github.com/dimitriospantazis/socialvision_GPT_annotations).
@@ -66,17 +67,19 @@ pip install -r requirements.txt
 3. **Train the model**:
    ```bash
    python main.py
+   ```
 4. **Monitor the training process and results using MLflow:
    ```bash
    mlflow ui 
+   ```
 
-## Output
--Model checkpoints
--Training and validation logs
--MLflow tracking and visualization
+### Output
+- Model checkpoints
+- Training and validation logs
+- MLflow tracking and visualization
 
 ## Benefits
-This project bridges the gap between automated video annotation and deep learning, creating a robust pipeline for analyzing social interactions in videos. It enables detailed insights into human behavior and environmental contexts, supporting research in social vision and multimedia analysis.
+This project enables the prediction of social vision features in videos, creating a robust pipeline for analyzing social interactions. It enables detailed insights into human behavior and environmental contexts, supporting research in social vision and multimedia analysis.
 
 
 
