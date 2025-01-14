@@ -4,6 +4,7 @@ frames/
 mlruns/
 model_checkpoints/
 scratch/
+src/evaluate.py
 
 
 
